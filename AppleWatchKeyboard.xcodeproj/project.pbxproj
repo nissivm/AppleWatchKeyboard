@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2000F59C1B5BEA280081CBEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2000F59B1B5BEA280081CBEB /* AppDelegate.swift */; };
+		2000F59E1B5BEA280081CBEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2000F59D1B5BEA280081CBEB /* ViewController.swift */; };
+		2000F5A11B5BEA280081CBEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2000F59F1B5BEA280081CBEB /* Main.storyboard */; };
+		2000F5A31B5BEA280081CBEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2000F5A21B5BEA280081CBEB /* Images.xcassets */; };
+		2000F5A61B5BEA280081CBEB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2000F5A41B5BEA280081CBEB /* LaunchScreen.xib */; };
+		2000F5B21B5BEA280081CBEB /* AppleWatchKeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2000F5B11B5BEA280081CBEB /* AppleWatchKeyboardTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2000F5AC1B5BEA280081CBEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2000F58E1B5BEA280081CBEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2000F5951B5BEA280081CBEB;
+			remoteInfo = AppleWatchKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2000F5961B5BEA280081CBEB /* AppleWatchKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleWatchKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2000F59A1B5BEA280081CBEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2000F59B1B5BEA280081CBEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2000F59D1B5BEA280081CBEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2000F5A01B5BEA280081CBEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2000F5A21B5BEA280081CBEB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2000F5A51B5BEA280081CBEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2000F5AB1B5BEA280081CBEB /* AppleWatchKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleWatchKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2000F5B01B5BEA280081CBEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2000F5B11B5BEA280081CBEB /* AppleWatchKeyboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatchKeyboardTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2000F5931B5BEA280081CBEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2000F5A81B5BEA280081CBEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2000F58D1B5BEA280081CBEB = {
+			isa = PBXGroup;
+			children = (
+				2000F5981B5BEA280081CBEB /* AppleWatchKeyboard */,
+				2000F5AE1B5BEA280081CBEB /* AppleWatchKeyboardTests */,
+				2000F5971B5BEA280081CBEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2000F5971B5BEA280081CBEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2000F5961B5BEA280081CBEB /* AppleWatchKeyboard.app */,
+				2000F5AB1B5BEA280081CBEB /* AppleWatchKeyboardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2000F5981B5BEA280081CBEB /* AppleWatchKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				2000F59B1B5BEA280081CBEB /* AppDelegate.swift */,
+				2000F59D1B5BEA280081CBEB /* ViewController.swift */,
+				2000F59F1B5BEA280081CBEB /* Main.storyboard */,
+				2000F5A21B5BEA280081CBEB /* Images.xcassets */,
+				2000F5A41B5BEA280081CBEB /* LaunchScreen.xib */,
+				2000F5991B5BEA280081CBEB /* Supporting Files */,
+			);
+			path = AppleWatchKeyboard;
+			sourceTree = "<group>";
+		};
+		2000F5991B5BEA280081CBEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2000F59A1B5BEA280081CBEB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2000F5AE1B5BEA280081CBEB /* AppleWatchKeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				2000F5B11B5BEA280081CBEB /* AppleWatchKeyboardTests.swift */,
+				2000F5AF1B5BEA280081CBEB /* Supporting Files */,
+			);
+			path = AppleWatchKeyboardTests;
+			sourceTree = "<group>";
+		};
+		2000F5AF1B5BEA280081CBEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2000F5B01B5BEA280081CBEB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2000F5951B5BEA280081CBEB /* AppleWatchKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2000F5B51B5BEA280081CBEB /* Build configuration list for PBXNativeTarget "AppleWatchKeyboard" */;
+			buildPhases = (
+				2000F5921B5BEA280081CBEB /* Sources */,
+				2000F5931B5BEA280081CBEB /* Frameworks */,
+				2000F5941B5BEA280081CBEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppleWatchKeyboard;
+			productName = AppleWatchKeyboard;
+			productReference = 2000F5961B5BEA280081CBEB /* AppleWatchKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2000F5AA1B5BEA280081CBEB /* AppleWatchKeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2000F5B81B5BEA280081CBEB /* Build configuration list for PBXNativeTarget "AppleWatchKeyboardTests" */;
+			buildPhases = (
+				2000F5A71B5BEA280081CBEB /* Sources */,
+				2000F5A81B5BEA280081CBEB /* Frameworks */,
+				2000F5A91B5BEA280081CBEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2000F5AD1B5BEA280081CBEB /* PBXTargetDependency */,
+			);
+			name = AppleWatchKeyboardTests;
+			productName = AppleWatchKeyboardTests;
+			productReference = 2000F5AB1B5BEA280081CBEB /* AppleWatchKeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2000F58E1B5BEA280081CBEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Nissi Vieira Miranda";
+				TargetAttributes = {
+					2000F5951B5BEA280081CBEB = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					2000F5AA1B5BEA280081CBEB = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 2000F5951B5BEA280081CBEB;
+					};
+				};
+			};
+			buildConfigurationList = 2000F5911B5BEA280081CBEB /* Build configuration list for PBXProject "AppleWatchKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2000F58D1B5BEA280081CBEB;
+			productRefGroup = 2000F5971B5BEA280081CBEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2000F5951B5BEA280081CBEB /* AppleWatchKeyboard */,
+				2000F5AA1B5BEA280081CBEB /* AppleWatchKeyboardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2000F5941B5BEA280081CBEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2000F5A11B5BEA280081CBEB /* Main.storyboard in Resources */,
+				2000F5A61B5BEA280081CBEB /* LaunchScreen.xib in Resources */,
+				2000F5A31B5BEA280081CBEB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2000F5A91B5BEA280081CBEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2000F5921B5BEA280081CBEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2000F59E1B5BEA280081CBEB /* ViewController.swift in Sources */,
+				2000F59C1B5BEA280081CBEB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2000F5A71B5BEA280081CBEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2000F5B21B5BEA280081CBEB /* AppleWatchKeyboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2000F5AD1B5BEA280081CBEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2000F5951B5BEA280081CBEB /* AppleWatchKeyboard */;
+			targetProxy = 2000F5AC1B5BEA280081CBEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2000F59F1B5BEA280081CBEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2000F5A01B5BEA280081CBEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2000F5A41B5BEA280081CBEB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2000F5A51B5BEA280081CBEB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2000F5B31B5BEA280081CBEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2000F5B41B5BEA280081CBEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2000F5B61B5BEA280081CBEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AppleWatchKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2000F5B71B5BEA280081CBEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AppleWatchKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2000F5B91B5BEA280081CBEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AppleWatchKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleWatchKeyboard.app/AppleWatchKeyboard";
+			};
+			name = Debug;
+		};
+		2000F5BA1B5BEA280081CBEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AppleWatchKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleWatchKeyboard.app/AppleWatchKeyboard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2000F5911B5BEA280081CBEB /* Build configuration list for PBXProject "AppleWatchKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2000F5B31B5BEA280081CBEB /* Debug */,
+				2000F5B41B5BEA280081CBEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2000F5B51B5BEA280081CBEB /* Build configuration list for PBXNativeTarget "AppleWatchKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2000F5B61B5BEA280081CBEB /* Debug */,
+				2000F5B71B5BEA280081CBEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2000F5B81B5BEA280081CBEB /* Build configuration list for PBXNativeTarget "AppleWatchKeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2000F5B91B5BEA280081CBEB /* Debug */,
+				2000F5BA1B5BEA280081CBEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2000F58E1B5BEA280081CBEB /* Project object */;
+}

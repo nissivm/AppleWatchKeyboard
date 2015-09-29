@@ -175,6 +175,8 @@
 		20AD7D4E1BBB25E50044D7AE /* smiley42mm@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "smiley42mm@2x.png"; path = "Menu/smiley42mm@2x.png"; sourceTree = "<group>"; };
 		20AD7D4F1BBB25E50044D7AE /* text38mm@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "text38mm@2x.png"; path = "Menu/text38mm@2x.png"; sourceTree = "<group>"; };
 		20AD7D501BBB25E50044D7AE /* text42mm@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "text42mm@2x.png"; path = "Menu/text42mm@2x.png"; sourceTree = "<group>"; };
+		20AD7D591BBB3BBC0044D7AE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		20AD7D5A1BBB3BBC0044D7AE /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		20B3D7F51B5D41990064D2D0 /* leftArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftArrow.png; sourceTree = "<group>"; };
 		20B3D7F61B5D41990064D2D0 /* rightArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightArrow.png; sourceTree = "<group>"; };
 		20B3D7F91B5D6EE40064D2D0 /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
@@ -211,6 +213,8 @@
 		2000F58D1B5BEA280081CBEB = {
 			isa = PBXGroup;
 			children = (
+				20AD7D591BBB3BBC0044D7AE /* README.md */,
+				20AD7D5A1BBB3BBC0044D7AE /* LICENSE */,
 				205E92C81BB88B80005B235F /* UIKit.framework */,
 				2000F5981B5BEA280081CBEB /* AppleWatchKeyboard */,
 				2000F5AE1B5BEA280081CBEB /* AppleWatchKeyboardTests */,

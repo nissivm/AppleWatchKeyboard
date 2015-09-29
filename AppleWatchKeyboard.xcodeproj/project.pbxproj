@@ -13,6 +13,68 @@
 		2000F5A31B5BEA280081CBEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2000F5A21B5BEA280081CBEB /* Images.xcassets */; };
 		2000F5A61B5BEA280081CBEB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2000F5A41B5BEA280081CBEB /* LaunchScreen.xib */; };
 		2000F5B21B5BEA280081CBEB /* AppleWatchKeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2000F5B11B5BEA280081CBEB /* AppleWatchKeyboardTests.swift */; };
+		2000F5C61B5BEADC0081CBEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2000F5C51B5BEADC0081CBEB /* Images.xcassets */; };
+		2000F5D21B5BEADC0081CBEB /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2000F5D01B5BEADC0081CBEB /* Interface.storyboard */; };
+		2000F5D41B5BEADC0081CBEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2000F5D31B5BEADC0081CBEB /* Images.xcassets */; };
+		2000F5E21B5C5ADD0081CBEB /* CharactersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2000F5E11B5C5ADC0081CBEB /* CharactersCell.swift */; };
+		2005E85A1BB083E200C38FDF /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2005E8591BB083E200C38FDF /* ExtensionDelegate.swift */; settings = {ASSET_TAGS = (); }; };
+		2005E85D1BB09C0C00C38FDF /* AppleWatchKeyboard WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2000F5BF1B5BEADC0081CBEB /* AppleWatchKeyboard WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2005E8601BB09C0C00C38FDF /* AppleWatchKeyboard WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2000F5C91B5BEADC0081CBEB /* AppleWatchKeyboard WatchKit App.app */; };
+		200C90871BB188CB002D9BDF /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200C90861BB188CB002D9BDF /* MessageCell.swift */; settings = {ASSET_TAGS = (); }; };
+		2073F5121B5D809A0069AC13 /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 20B3D7F91B5D6EE40064D2D0 /* delete.png */; };
+		2073F5131B5D809D0069AC13 /* leftArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 20B3D7F51B5D41990064D2D0 /* leftArrow.png */; };
+		2073F5141B5D809F0069AC13 /* rightArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 20B3D7F61B5D41990064D2D0 /* rightArrow.png */; };
+		207AC9951BB9714300ECCD35 /* SmileysTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207AC9941BB9714200ECCD35 /* SmileysTable.swift */; settings = {ASSET_TAGS = (); }; };
+		207AC9971BB973B600ECCD35 /* SmileyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207AC9961BB973B600ECCD35 /* SmileyCell.swift */; settings = {ASSET_TAGS = (); }; };
+		207AC9A51BB97E3000ECCD35 /* smiley-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 207AC9991BB97E3000ECCD35 /* smiley-1.png */; settings = {ASSET_TAGS = (); }; };
+		207AC9A61BB97E3000ECCD35 /* smiley-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 207AC9991BB97E3000ECCD35 /* smiley-1.png */; settings = {ASSET_TAGS = (); }; };
+		207AC9A71BB97E3000ECCD35 /* smiley-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 207AC99A1BB97E3000ECCD35 /* smiley-2.png */; settings = {ASSET_TAGS = (); }; };
+		207AC9A81BB97E3000ECCD35 /* smiley-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 207AC99A1BB97E3000ECCD35 /* smiley-2.png */; settings = {ASSET_TAGS = (); }; };
+		207AC9A91BB97E3000ECCD35 /* smiley-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 207AC99B1BB97E3000ECCD35 /* smiley-3.png */; settings = {ASSET_TAGS = (); }; };
+		207AC9AA1BB97E3000ECCD35 /* smiley-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 207AC99B1BB97E3000ECCD35 /* smiley-3.png */; settings = {ASSET_TAGS = (); }; };
+		207AC9AB1BB97E3000ECCD35 /* smiley-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 207AC99C1BB97E3000ECCD35 /* smiley-4.png */; settings = {ASSET_TAGS = (); }; };
+		207AC9AC1BB97E3000ECCD35 /* smiley-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 207AC99C1BB97E3000ECCD35 /* smiley-4.png */; settings = {ASSET_TAGS = (); }; };
+		207AC9AD1BB97E3000ECCD35 /* smiley-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 207AC99D1BB97E3000ECCD35 /* smiley-5.png */; settings = {ASSET_TAGS = (); }; };
+		207AC9AE1BB97E3000ECCD35 /* smiley-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 207AC99D1BB97E3000ECCD35 /* smiley-5.png */; settings = {ASSET_TAGS = (); }; };
+		207AC9AF1BB97E3000ECCD35 /* smiley-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 207AC99E1BB97E3000ECCD35 /* smiley-6.png */; settings = {ASSET_TAGS = (); }; };
+		207AC9B01BB97E3000ECCD35 /* smiley-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 207AC99E1BB97E3000ECCD35 /* smiley-6.png */; settings = {ASSET_TAGS = (); }; };
+		207AC9B11BB97E3000ECCD35 /* smiley-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 207AC99F1BB97E3000ECCD35 /* smiley-7.png */; settings = {ASSET_TAGS = (); }; };
+		207AC9B21BB97E3000ECCD35 /* smiley-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 207AC99F1BB97E3000ECCD35 /* smiley-7.png */; settings = {ASSET_TAGS = (); }; };
+		207AC9B31BB97E3000ECCD35 /* smiley-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 207AC9A01BB97E3000ECCD35 /* smiley-8.png */; settings = {ASSET_TAGS = (); }; };
+		207AC9B41BB97E3000ECCD35 /* smiley-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 207AC9A01BB97E3000ECCD35 /* smiley-8.png */; settings = {ASSET_TAGS = (); }; };
+		207AC9B51BB97E3000ECCD35 /* smiley-9.png in Resources */ = {isa = PBXBuildFile; fileRef = 207AC9A11BB97E3000ECCD35 /* smiley-9.png */; settings = {ASSET_TAGS = (); }; };
+		207AC9B61BB97E3000ECCD35 /* smiley-9.png in Resources */ = {isa = PBXBuildFile; fileRef = 207AC9A11BB97E3000ECCD35 /* smiley-9.png */; settings = {ASSET_TAGS = (); }; };
+		207AC9B71BB97E3000ECCD35 /* smiley-10.png in Resources */ = {isa = PBXBuildFile; fileRef = 207AC9A21BB97E3000ECCD35 /* smiley-10.png */; settings = {ASSET_TAGS = (); }; };
+		207AC9B81BB97E3000ECCD35 /* smiley-10.png in Resources */ = {isa = PBXBuildFile; fileRef = 207AC9A21BB97E3000ECCD35 /* smiley-10.png */; settings = {ASSET_TAGS = (); }; };
+		207AC9B91BB97E3000ECCD35 /* smiley-11.png in Resources */ = {isa = PBXBuildFile; fileRef = 207AC9A31BB97E3000ECCD35 /* smiley-11.png */; settings = {ASSET_TAGS = (); }; };
+		207AC9BA1BB97E3000ECCD35 /* smiley-11.png in Resources */ = {isa = PBXBuildFile; fileRef = 207AC9A31BB97E3000ECCD35 /* smiley-11.png */; settings = {ASSET_TAGS = (); }; };
+		207AC9BB1BB97E3000ECCD35 /* smiley-12.png in Resources */ = {isa = PBXBuildFile; fileRef = 207AC9A41BB97E3000ECCD35 /* smiley-12.png */; settings = {ASSET_TAGS = (); }; };
+		207AC9BC1BB97E3000ECCD35 /* smiley-12.png in Resources */ = {isa = PBXBuildFile; fileRef = 207AC9A41BB97E3000ECCD35 /* smiley-12.png */; settings = {ASSET_TAGS = (); }; };
+		207AC9C11BB9D32A00ECCD35 /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207AC9C01BB9D32A00ECCD35 /* AvatarCell.swift */; settings = {ASSET_TAGS = (); }; };
+		207AC9C91BB9DDB600ECCD35 /* Axl.png in Resources */ = {isa = PBXBuildFile; fileRef = 207AC9C31BB9DDB600ECCD35 /* Axl.png */; settings = {ASSET_TAGS = (); }; };
+		207AC9CA1BB9DDB600ECCD35 /* Mark.png in Resources */ = {isa = PBXBuildFile; fileRef = 207AC9C41BB9DDB600ECCD35 /* Mark.png */; settings = {ASSET_TAGS = (); }; };
+		207AC9CB1BB9DDB600ECCD35 /* Nicole.png in Resources */ = {isa = PBXBuildFile; fileRef = 207AC9C51BB9DDB600ECCD35 /* Nicole.png */; settings = {ASSET_TAGS = (); }; };
+		207AC9CC1BB9DDB600ECCD35 /* Simon.png in Resources */ = {isa = PBXBuildFile; fileRef = 207AC9C61BB9DDB600ECCD35 /* Simon.png */; settings = {ASSET_TAGS = (); }; };
+		207AC9CD1BB9DDB600ECCD35 /* Suzanne.png in Resources */ = {isa = PBXBuildFile; fileRef = 207AC9C71BB9DDB600ECCD35 /* Suzanne.png */; settings = {ASSET_TAGS = (); }; };
+		207AC9CE1BB9DDB600ECCD35 /* Vincent.png in Resources */ = {isa = PBXBuildFile; fileRef = 207AC9C81BB9DDB600ECCD35 /* Vincent.png */; settings = {ASSET_TAGS = (); }; };
+		20AD7D3C1BBACE800044D7AE /* bubbleBottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 20AD7D3A1BBACE7F0044D7AE /* bubbleBottom.png */; settings = {ASSET_TAGS = (); }; };
+		20AD7D3D1BBACE800044D7AE /* bubbleBottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 20AD7D3A1BBACE7F0044D7AE /* bubbleBottom.png */; settings = {ASSET_TAGS = (); }; };
+		20AD7D3E1BBACE800044D7AE /* bubbleTop.png in Resources */ = {isa = PBXBuildFile; fileRef = 20AD7D3B1BBACE7F0044D7AE /* bubbleTop.png */; settings = {ASSET_TAGS = (); }; };
+		20AD7D3F1BBACE800044D7AE /* bubbleTop.png in Resources */ = {isa = PBXBuildFile; fileRef = 20AD7D3B1BBACE7F0044D7AE /* bubbleTop.png */; settings = {ASSET_TAGS = (); }; };
+		20AD7D511BBB25E50044D7AE /* smiley38mm@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 20AD7D4D1BBB25E50044D7AE /* smiley38mm@2x.png */; settings = {ASSET_TAGS = (); }; };
+		20AD7D521BBB25E50044D7AE /* smiley38mm@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 20AD7D4D1BBB25E50044D7AE /* smiley38mm@2x.png */; settings = {ASSET_TAGS = (); }; };
+		20AD7D531BBB25E50044D7AE /* smiley42mm@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 20AD7D4E1BBB25E50044D7AE /* smiley42mm@2x.png */; settings = {ASSET_TAGS = (); }; };
+		20AD7D541BBB25E50044D7AE /* smiley42mm@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 20AD7D4E1BBB25E50044D7AE /* smiley42mm@2x.png */; settings = {ASSET_TAGS = (); }; };
+		20AD7D551BBB25E50044D7AE /* text38mm@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 20AD7D4F1BBB25E50044D7AE /* text38mm@2x.png */; settings = {ASSET_TAGS = (); }; };
+		20AD7D561BBB25E50044D7AE /* text38mm@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 20AD7D4F1BBB25E50044D7AE /* text38mm@2x.png */; settings = {ASSET_TAGS = (); }; };
+		20AD7D571BBB25E50044D7AE /* text42mm@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 20AD7D501BBB25E50044D7AE /* text42mm@2x.png */; settings = {ASSET_TAGS = (); }; };
+		20AD7D581BBB25E50044D7AE /* text42mm@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 20AD7D501BBB25E50044D7AE /* text42mm@2x.png */; settings = {ASSET_TAGS = (); }; };
+		20B3D7F71B5D41990064D2D0 /* leftArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 20B3D7F51B5D41990064D2D0 /* leftArrow.png */; };
+		20B3D7F81B5D41990064D2D0 /* rightArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 20B3D7F61B5D41990064D2D0 /* rightArrow.png */; };
+		20B3D7FA1B5D6EE40064D2D0 /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 20B3D7F91B5D6EE40064D2D0 /* delete.png */; };
+		20B3D7FC1B5D713B0064D2D0 /* CharactersKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B3D7FB1B5D713B0064D2D0 /* CharactersKeyboard.swift */; };
+		20D69E721BB74B8A00AFAA92 /* ChatRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D69E711BB74B8A00AFAA92 /* ChatRoom.swift */; settings = {ASSET_TAGS = (); }; };
+		20D69E741BB74C2700AFAA92 /* InitialScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D69E731BB74C2700AFAA92 /* InitialScreen.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +85,46 @@
 			remoteGlobalIDString = 2000F5951B5BEA280081CBEB;
 			remoteInfo = AppleWatchKeyboard;
 		};
+		2005E85B1BB09C0C00C38FDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2000F58E1B5BEA280081CBEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2000F5BE1B5BEADC0081CBEB;
+			remoteInfo = "AppleWatchKeyboard WatchKit Extension";
+		};
+		2005E85E1BB09C0C00C38FDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2000F58E1B5BEA280081CBEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2000F5C81B5BEADC0081CBEB;
+			remoteInfo = "AppleWatchKeyboard WatchKit App";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2005E8611BB09C0C00C38FDF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2005E85D1BB09C0C00C38FDF /* AppleWatchKeyboard WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2005E8621BB09C0C00C38FDF /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				2005E8601BB09C0C00C38FDF /* AppleWatchKeyboard WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2000F5961B5BEA280081CBEB /* AppleWatchKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleWatchKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +137,50 @@
 		2000F5AB1B5BEA280081CBEB /* AppleWatchKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleWatchKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2000F5B01B5BEA280081CBEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2000F5B11B5BEA280081CBEB /* AppleWatchKeyboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatchKeyboardTests.swift; sourceTree = "<group>"; };
+		2000F5BF1B5BEADC0081CBEB /* AppleWatchKeyboard WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AppleWatchKeyboard WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2000F5C21B5BEADC0081CBEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2000F5C51B5BEADC0081CBEB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2000F5C91B5BEADC0081CBEB /* AppleWatchKeyboard WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppleWatchKeyboard WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2000F5CF1B5BEADC0081CBEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2000F5D11B5BEADC0081CBEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		2000F5D31B5BEADC0081CBEB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2000F5E11B5C5ADC0081CBEB /* CharactersCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharactersCell.swift; sourceTree = "<group>"; };
+		2005E8591BB083E200C38FDF /* ExtensionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		200C90861BB188CB002D9BDF /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		205E92C81BB88B80005B235F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS2.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		207AC9941BB9714200ECCD35 /* SmileysTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmileysTable.swift; sourceTree = "<group>"; };
+		207AC9961BB973B600ECCD35 /* SmileyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmileyCell.swift; sourceTree = "<group>"; };
+		207AC9991BB97E3000ECCD35 /* smiley-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "smiley-1.png"; path = "Smileys/smiley-1.png"; sourceTree = "<group>"; };
+		207AC99A1BB97E3000ECCD35 /* smiley-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "smiley-2.png"; path = "Smileys/smiley-2.png"; sourceTree = "<group>"; };
+		207AC99B1BB97E3000ECCD35 /* smiley-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "smiley-3.png"; path = "Smileys/smiley-3.png"; sourceTree = "<group>"; };
+		207AC99C1BB97E3000ECCD35 /* smiley-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "smiley-4.png"; path = "Smileys/smiley-4.png"; sourceTree = "<group>"; };
+		207AC99D1BB97E3000ECCD35 /* smiley-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "smiley-5.png"; path = "Smileys/smiley-5.png"; sourceTree = "<group>"; };
+		207AC99E1BB97E3000ECCD35 /* smiley-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "smiley-6.png"; path = "Smileys/smiley-6.png"; sourceTree = "<group>"; };
+		207AC99F1BB97E3000ECCD35 /* smiley-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "smiley-7.png"; path = "Smileys/smiley-7.png"; sourceTree = "<group>"; };
+		207AC9A01BB97E3000ECCD35 /* smiley-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "smiley-8.png"; path = "Smileys/smiley-8.png"; sourceTree = "<group>"; };
+		207AC9A11BB97E3000ECCD35 /* smiley-9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "smiley-9.png"; path = "Smileys/smiley-9.png"; sourceTree = "<group>"; };
+		207AC9A21BB97E3000ECCD35 /* smiley-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "smiley-10.png"; path = "Smileys/smiley-10.png"; sourceTree = "<group>"; };
+		207AC9A31BB97E3000ECCD35 /* smiley-11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "smiley-11.png"; path = "Smileys/smiley-11.png"; sourceTree = "<group>"; };
+		207AC9A41BB97E3000ECCD35 /* smiley-12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "smiley-12.png"; path = "Smileys/smiley-12.png"; sourceTree = "<group>"; };
+		207AC9C01BB9D32A00ECCD35 /* AvatarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
+		207AC9C31BB9DDB600ECCD35 /* Axl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Axl.png; path = Avatars/Axl.png; sourceTree = "<group>"; };
+		207AC9C41BB9DDB600ECCD35 /* Mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Mark.png; path = Avatars/Mark.png; sourceTree = "<group>"; };
+		207AC9C51BB9DDB600ECCD35 /* Nicole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Nicole.png; path = Avatars/Nicole.png; sourceTree = "<group>"; };
+		207AC9C61BB9DDB600ECCD35 /* Simon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Simon.png; path = Avatars/Simon.png; sourceTree = "<group>"; };
+		207AC9C71BB9DDB600ECCD35 /* Suzanne.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Suzanne.png; path = Avatars/Suzanne.png; sourceTree = "<group>"; };
+		207AC9C81BB9DDB600ECCD35 /* Vincent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Vincent.png; path = Avatars/Vincent.png; sourceTree = "<group>"; };
+		20AD7D3A1BBACE7F0044D7AE /* bubbleBottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubbleBottom.png; sourceTree = "<group>"; };
+		20AD7D3B1BBACE7F0044D7AE /* bubbleTop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubbleTop.png; sourceTree = "<group>"; };
+		20AD7D4D1BBB25E50044D7AE /* smiley38mm@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "smiley38mm@2x.png"; path = "Menu/smiley38mm@2x.png"; sourceTree = "<group>"; };
+		20AD7D4E1BBB25E50044D7AE /* smiley42mm@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "smiley42mm@2x.png"; path = "Menu/smiley42mm@2x.png"; sourceTree = "<group>"; };
+		20AD7D4F1BBB25E50044D7AE /* text38mm@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "text38mm@2x.png"; path = "Menu/text38mm@2x.png"; sourceTree = "<group>"; };
+		20AD7D501BBB25E50044D7AE /* text42mm@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "text42mm@2x.png"; path = "Menu/text42mm@2x.png"; sourceTree = "<group>"; };
+		20B3D7F51B5D41990064D2D0 /* leftArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftArrow.png; sourceTree = "<group>"; };
+		20B3D7F61B5D41990064D2D0 /* rightArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightArrow.png; sourceTree = "<group>"; };
+		20B3D7F91B5D6EE40064D2D0 /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
+		20B3D7FB1B5D713B0064D2D0 /* CharactersKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharactersKeyboard.swift; sourceTree = "<group>"; };
+		20D69E711BB74B8A00AFAA92 /* ChatRoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatRoom.swift; sourceTree = "<group>"; };
+		20D69E731BB74C2700AFAA92 /* InitialScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,14 +198,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2000F5BC1B5BEADC0081CBEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		2000F58D1B5BEA280081CBEB = {
 			isa = PBXGroup;
 			children = (
+				205E92C81BB88B80005B235F /* UIKit.framework */,
 				2000F5981B5BEA280081CBEB /* AppleWatchKeyboard */,
 				2000F5AE1B5BEA280081CBEB /* AppleWatchKeyboardTests */,
+				2000F5C01B5BEADC0081CBEB /* AppleWatchKeyboard WatchKit Extension */,
+				2000F5CD1B5BEADC0081CBEB /* AppleWatchKeyboard WatchKit App */,
 				2000F5971B5BEA280081CBEB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +225,8 @@
 			children = (
 				2000F5961B5BEA280081CBEB /* AppleWatchKeyboard.app */,
 				2000F5AB1B5BEA280081CBEB /* AppleWatchKeyboardTests.xctest */,
+				2000F5BF1B5BEADC0081CBEB /* AppleWatchKeyboard WatchKit Extension.appex */,
+				2000F5C91B5BEADC0081CBEB /* AppleWatchKeyboard WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +269,117 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2000F5C01B5BEADC0081CBEB /* AppleWatchKeyboard WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				200C90851BB18848002D9BDF /* Assets */,
+				200C90841BB1882D002D9BDF /* Custom cells */,
+				2005E8591BB083E200C38FDF /* ExtensionDelegate.swift */,
+				20D69E731BB74C2700AFAA92 /* InitialScreen.swift */,
+				20D69E711BB74B8A00AFAA92 /* ChatRoom.swift */,
+				20B3D7FB1B5D713B0064D2D0 /* CharactersKeyboard.swift */,
+				207AC9941BB9714200ECCD35 /* SmileysTable.swift */,
+				2000F5C51B5BEADC0081CBEB /* Images.xcassets */,
+				2000F5C11B5BEADC0081CBEB /* Supporting Files */,
+			);
+			path = "AppleWatchKeyboard WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		2000F5C11B5BEADC0081CBEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2000F5C21B5BEADC0081CBEB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2000F5CD1B5BEADC0081CBEB /* AppleWatchKeyboard WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				2000F5D01B5BEADC0081CBEB /* Interface.storyboard */,
+				2000F5D31B5BEADC0081CBEB /* Images.xcassets */,
+				2000F5CE1B5BEADC0081CBEB /* Supporting Files */,
+			);
+			path = "AppleWatchKeyboard WatchKit App";
+			sourceTree = "<group>";
+		};
+		2000F5CE1B5BEADC0081CBEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2000F5CF1B5BEADC0081CBEB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		200C90841BB1882D002D9BDF /* Custom cells */ = {
+			isa = PBXGroup;
+			children = (
+				2000F5E11B5C5ADC0081CBEB /* CharactersCell.swift */,
+				200C90861BB188CB002D9BDF /* MessageCell.swift */,
+				207AC9961BB973B600ECCD35 /* SmileyCell.swift */,
+				207AC9C01BB9D32A00ECCD35 /* AvatarCell.swift */,
+			);
+			name = "Custom cells";
+			sourceTree = "<group>";
+		};
+		200C90851BB18848002D9BDF /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				207AC9C21BB9DC3900ECCD35 /* Avatars */,
+				20AD7D3A1BBACE7F0044D7AE /* bubbleBottom.png */,
+				20AD7D3B1BBACE7F0044D7AE /* bubbleTop.png */,
+				20B3D7F91B5D6EE40064D2D0 /* delete.png */,
+				20B3D7F51B5D41990064D2D0 /* leftArrow.png */,
+				20B3D7F61B5D41990064D2D0 /* rightArrow.png */,
+				20AD7D4C1BBB25B90044D7AE /* Menu */,
+				207AC9981BB97CAB00ECCD35 /* Smileys */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		207AC9981BB97CAB00ECCD35 /* Smileys */ = {
+			isa = PBXGroup;
+			children = (
+				207AC9991BB97E3000ECCD35 /* smiley-1.png */,
+				207AC99A1BB97E3000ECCD35 /* smiley-2.png */,
+				207AC99B1BB97E3000ECCD35 /* smiley-3.png */,
+				207AC99C1BB97E3000ECCD35 /* smiley-4.png */,
+				207AC99D1BB97E3000ECCD35 /* smiley-5.png */,
+				207AC99E1BB97E3000ECCD35 /* smiley-6.png */,
+				207AC99F1BB97E3000ECCD35 /* smiley-7.png */,
+				207AC9A01BB97E3000ECCD35 /* smiley-8.png */,
+				207AC9A11BB97E3000ECCD35 /* smiley-9.png */,
+				207AC9A21BB97E3000ECCD35 /* smiley-10.png */,
+				207AC9A31BB97E3000ECCD35 /* smiley-11.png */,
+				207AC9A41BB97E3000ECCD35 /* smiley-12.png */,
+			);
+			name = Smileys;
+			sourceTree = "<group>";
+		};
+		207AC9C21BB9DC3900ECCD35 /* Avatars */ = {
+			isa = PBXGroup;
+			children = (
+				207AC9C31BB9DDB600ECCD35 /* Axl.png */,
+				207AC9C41BB9DDB600ECCD35 /* Mark.png */,
+				207AC9C51BB9DDB600ECCD35 /* Nicole.png */,
+				207AC9C61BB9DDB600ECCD35 /* Simon.png */,
+				207AC9C71BB9DDB600ECCD35 /* Suzanne.png */,
+				207AC9C81BB9DDB600ECCD35 /* Vincent.png */,
+			);
+			name = Avatars;
+			sourceTree = "<group>";
+		};
+		20AD7D4C1BBB25B90044D7AE /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				20AD7D4D1BBB25E50044D7AE /* smiley38mm@2x.png */,
+				20AD7D4E1BBB25E50044D7AE /* smiley42mm@2x.png */,
+				20AD7D4F1BBB25E50044D7AE /* text38mm@2x.png */,
+				20AD7D501BBB25E50044D7AE /* text42mm@2x.png */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +390,12 @@
 				2000F5921B5BEA280081CBEB /* Sources */,
 				2000F5931B5BEA280081CBEB /* Frameworks */,
 				2000F5941B5BEA280081CBEB /* Resources */,
+				2005E8621BB09C0C00C38FDF /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				2005E85F1BB09C0C00C38FDF /* PBXTargetDependency */,
 			);
 			name = AppleWatchKeyboard;
 			productName = AppleWatchKeyboard;
@@ -150,13 +420,48 @@
 			productReference = 2000F5AB1B5BEA280081CBEB /* AppleWatchKeyboardTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		2000F5BE1B5BEADC0081CBEB /* AppleWatchKeyboard WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2000F5DB1B5BEADC0081CBEB /* Build configuration list for PBXNativeTarget "AppleWatchKeyboard WatchKit Extension" */;
+			buildPhases = (
+				2000F5BB1B5BEADC0081CBEB /* Sources */,
+				2000F5BC1B5BEADC0081CBEB /* Frameworks */,
+				2000F5BD1B5BEADC0081CBEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AppleWatchKeyboard WatchKit Extension";
+			productName = "AppleWatchKeyboard WatchKit Extension";
+			productReference = 2000F5BF1B5BEADC0081CBEB /* AppleWatchKeyboard WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		2000F5C81B5BEADC0081CBEB /* AppleWatchKeyboard WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2000F5D81B5BEADC0081CBEB /* Build configuration list for PBXNativeTarget "AppleWatchKeyboard WatchKit App" */;
+			buildPhases = (
+				2000F5C71B5BEADC0081CBEB /* Resources */,
+				2005E8611BB09C0C00C38FDF /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2005E85C1BB09C0C00C38FDF /* PBXTargetDependency */,
+			);
+			name = "AppleWatchKeyboard WatchKit App";
+			productName = "AppleWatchKeyboard WatchKit App";
+			productReference = 2000F5C91B5BEADC0081CBEB /* AppleWatchKeyboard WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		2000F58E1B5BEA280081CBEB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Nissi Vieira Miranda";
 				TargetAttributes = {
 					2000F5951B5BEA280081CBEB = {
@@ -165,6 +470,12 @@
 					2000F5AA1B5BEA280081CBEB = {
 						CreatedOnToolsVersion = 6.4;
 						TestTargetID = 2000F5951B5BEA280081CBEB;
+					};
+					2000F5BE1B5BEADC0081CBEB = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					2000F5C81B5BEADC0081CBEB = {
+						CreatedOnToolsVersion = 6.4;
 					};
 				};
 			};
@@ -183,6 +494,8 @@
 			targets = (
 				2000F5951B5BEA280081CBEB /* AppleWatchKeyboard */,
 				2000F5AA1B5BEA280081CBEB /* AppleWatchKeyboardTests */,
+				2000F5BE1B5BEADC0081CBEB /* AppleWatchKeyboard WatchKit Extension */,
+				2000F5C81B5BEADC0081CBEB /* AppleWatchKeyboard WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -202,6 +515,71 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2000F5BD1B5BEADC0081CBEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207AC9A91BB97E3000ECCD35 /* smiley-3.png in Resources */,
+				20AD7D571BBB25E50044D7AE /* text42mm@2x.png in Resources */,
+				207AC9B71BB97E3000ECCD35 /* smiley-10.png in Resources */,
+				2000F5C61B5BEADC0081CBEB /* Images.xcassets in Resources */,
+				207AC9C91BB9DDB600ECCD35 /* Axl.png in Resources */,
+				207AC9A71BB97E3000ECCD35 /* smiley-2.png in Resources */,
+				207AC9CC1BB9DDB600ECCD35 /* Simon.png in Resources */,
+				207AC9A51BB97E3000ECCD35 /* smiley-1.png in Resources */,
+				207AC9CD1BB9DDB600ECCD35 /* Suzanne.png in Resources */,
+				207AC9B11BB97E3000ECCD35 /* smiley-7.png in Resources */,
+				20B3D7F81B5D41990064D2D0 /* rightArrow.png in Resources */,
+				207AC9AD1BB97E3000ECCD35 /* smiley-5.png in Resources */,
+				20AD7D531BBB25E50044D7AE /* smiley42mm@2x.png in Resources */,
+				20AD7D3C1BBACE800044D7AE /* bubbleBottom.png in Resources */,
+				207AC9CA1BB9DDB600ECCD35 /* Mark.png in Resources */,
+				20AD7D551BBB25E50044D7AE /* text38mm@2x.png in Resources */,
+				207AC9B31BB97E3000ECCD35 /* smiley-8.png in Resources */,
+				207AC9CE1BB9DDB600ECCD35 /* Vincent.png in Resources */,
+				207AC9AB1BB97E3000ECCD35 /* smiley-4.png in Resources */,
+				207AC9B91BB97E3000ECCD35 /* smiley-11.png in Resources */,
+				207AC9BB1BB97E3000ECCD35 /* smiley-12.png in Resources */,
+				207AC9AF1BB97E3000ECCD35 /* smiley-6.png in Resources */,
+				207AC9B51BB97E3000ECCD35 /* smiley-9.png in Resources */,
+				20B3D7FA1B5D6EE40064D2D0 /* delete.png in Resources */,
+				20AD7D511BBB25E50044D7AE /* smiley38mm@2x.png in Resources */,
+				20B3D7F71B5D41990064D2D0 /* leftArrow.png in Resources */,
+				207AC9CB1BB9DDB600ECCD35 /* Nicole.png in Resources */,
+				20AD7D3E1BBACE800044D7AE /* bubbleTop.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2000F5C71B5BEADC0081CBEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207AC9AE1BB97E3000ECCD35 /* smiley-5.png in Resources */,
+				20AD7D581BBB25E50044D7AE /* text42mm@2x.png in Resources */,
+				207AC9BC1BB97E3000ECCD35 /* smiley-12.png in Resources */,
+				207AC9A81BB97E3000ECCD35 /* smiley-2.png in Resources */,
+				207AC9AC1BB97E3000ECCD35 /* smiley-4.png in Resources */,
+				207AC9A61BB97E3000ECCD35 /* smiley-1.png in Resources */,
+				207AC9B01BB97E3000ECCD35 /* smiley-6.png in Resources */,
+				20AD7D521BBB25E50044D7AE /* smiley38mm@2x.png in Resources */,
+				207AC9AA1BB97E3000ECCD35 /* smiley-3.png in Resources */,
+				207AC9B21BB97E3000ECCD35 /* smiley-7.png in Resources */,
+				2000F5D21B5BEADC0081CBEB /* Interface.storyboard in Resources */,
+				207AC9B61BB97E3000ECCD35 /* smiley-9.png in Resources */,
+				2073F5141B5D809F0069AC13 /* rightArrow.png in Resources */,
+				207AC9BA1BB97E3000ECCD35 /* smiley-11.png in Resources */,
+				2073F5131B5D809D0069AC13 /* leftArrow.png in Resources */,
+				20AD7D561BBB25E50044D7AE /* text38mm@2x.png in Resources */,
+				207AC9B81BB97E3000ECCD35 /* smiley-10.png in Resources */,
+				2073F5121B5D809A0069AC13 /* delete.png in Resources */,
+				207AC9B41BB97E3000ECCD35 /* smiley-8.png in Resources */,
+				20AD7D541BBB25E50044D7AE /* smiley42mm@2x.png in Resources */,
+				20AD7D3D1BBACE800044D7AE /* bubbleBottom.png in Resources */,
+				2000F5D41B5BEADC0081CBEB /* Images.xcassets in Resources */,
+				20AD7D3F1BBACE800044D7AE /* bubbleTop.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +603,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2000F5BB1B5BEADC0081CBEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D69E741BB74C2700AFAA92 /* InitialScreen.swift in Sources */,
+				207AC9C11BB9D32A00ECCD35 /* AvatarCell.swift in Sources */,
+				20D69E721BB74B8A00AFAA92 /* ChatRoom.swift in Sources */,
+				20B3D7FC1B5D713B0064D2D0 /* CharactersKeyboard.swift in Sources */,
+				207AC9951BB9714300ECCD35 /* SmileysTable.swift in Sources */,
+				200C90871BB188CB002D9BDF /* MessageCell.swift in Sources */,
+				2005E85A1BB083E200C38FDF /* ExtensionDelegate.swift in Sources */,
+				207AC9971BB973B600ECCD35 /* SmileyCell.swift in Sources */,
+				2000F5E21B5C5ADD0081CBEB /* CharactersCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +626,16 @@
 			isa = PBXTargetDependency;
 			target = 2000F5951B5BEA280081CBEB /* AppleWatchKeyboard */;
 			targetProxy = 2000F5AC1B5BEA280081CBEB /* PBXContainerItemProxy */;
+		};
+		2005E85C1BB09C0C00C38FDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2000F5BE1B5BEADC0081CBEB /* AppleWatchKeyboard WatchKit Extension */;
+			targetProxy = 2005E85B1BB09C0C00C38FDF /* PBXContainerItemProxy */;
+		};
+		2005E85F1BB09C0C00C38FDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2000F5C81B5BEADC0081CBEB /* AppleWatchKeyboard WatchKit App */;
+			targetProxy = 2005E85E1BB09C0C00C38FDF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -250,6 +654,14 @@
 				2000F5A51B5BEA280081CBEB /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		2000F5D01B5BEADC0081CBEB /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2000F5D11B5BEADC0081CBEB /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -276,6 +688,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -291,7 +704,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -329,7 +742,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -342,6 +755,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AppleWatchKeyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appmagic.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -352,6 +766,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AppleWatchKeyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appmagic.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -370,6 +785,7 @@
 				);
 				INFOPLIST_FILE = AppleWatchKeyboardTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appmagic.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleWatchKeyboard.app/AppleWatchKeyboard";
 			};
@@ -385,8 +801,77 @@
 				);
 				INFOPLIST_FILE = AppleWatchKeyboardTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appmagic.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleWatchKeyboard.app/AppleWatchKeyboard";
+			};
+			name = Release;
+		};
+		2000F5D91B5BEADC0081CBEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = AppleWatchKeyboard_WatchKit_Extension;
+				INFOPLIST_FILE = "AppleWatchKeyboard WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appmagic.AppleWatchKeyboard.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		2000F5DA1B5BEADC0081CBEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = AppleWatchKeyboard_WatchKit_Extension;
+				INFOPLIST_FILE = "AppleWatchKeyboard WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appmagic.AppleWatchKeyboard.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		2000F5DC1B5BEADC0081CBEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AppleWatchKeyboard WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appmagic.AppleWatchKeyboard.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		2000F5DD1B5BEADC0081CBEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AppleWatchKeyboard WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appmagic.AppleWatchKeyboard.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
@@ -409,6 +894,7 @@
 				2000F5B71B5BEA280081CBEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2000F5B81B5BEA280081CBEB /* Build configuration list for PBXNativeTarget "AppleWatchKeyboardTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +903,25 @@
 				2000F5BA1B5BEA280081CBEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2000F5D81B5BEADC0081CBEB /* Build configuration list for PBXNativeTarget "AppleWatchKeyboard WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2000F5D91B5BEADC0081CBEB /* Debug */,
+				2000F5DA1B5BEADC0081CBEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2000F5DB1B5BEADC0081CBEB /* Build configuration list for PBXNativeTarget "AppleWatchKeyboard WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2000F5DC1B5BEADC0081CBEB /* Debug */,
+				2000F5DD1B5BEADC0081CBEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

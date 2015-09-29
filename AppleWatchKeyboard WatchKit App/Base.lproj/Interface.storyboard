@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Glv-EY-e2R">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8092"/>
+    </dependencies>
+    <scenes>
+        <!--Initial Screen-->
+        <scene sceneID="U2F-MV-mMr">
+            <objects>
+                <controller hidesWhenLoading="NO" id="Glv-EY-e2R" customClass="InitialScreen" customModule="AppleWatchKeyboard_WatchKit_Extension">
+                    <items>
+                        <table alignment="left" id="7ta-CT-Ia8">
+                            <items>
+                                <tableRow identifier="AvatarCell" id="1Ek-Ax-cHI" customClass="AvatarCell" customModule="AppleWatchKeyboard_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" id="HLR-7E-7Kx">
+                                        <items>
+                                            <imageView width="25" height="25" alignment="left" verticalAlignment="center" id="tP2-R5-ip8" userLabel="Avatar image">
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </imageView>
+                                            <label width="95" alignment="left" verticalAlignment="center" text="Label" textAlignment="left" id="5Sa-Ao-6KW" userLabel="Avatar name">
+                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                <fontDescription key="font" type="system" pointSize="14"/>
+                                            </label>
+                                        </items>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <edgeInsets key="margins" left="5" right="0.0" top="5" bottom="5"/>
+                                    </group>
+                                    <connections>
+                                        <outlet property="avatarImage" destination="tP2-R5-ip8" id="fkm-Hn-0g7"/>
+                                        <outlet property="avatarName" destination="5Sa-Ao-6KW" id="x9R-cn-zd1"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="7ta-CT-Ia8" id="AA5-ty-lOm"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1576" y="2743"/>
+        </scene>
+        <!--Chat Room-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller identifier="ChatRoom" title="Back" id="AgC-eL-Hgc" userLabel="Chat Room" customClass="ChatRoom" customModule="AppleWatchKeyboard_WatchKit_Extension">
+                    <items>
+                        <table alignment="center" hidden="YES" spacing="0.0" id="2O1-oz-xp9" userLabel="Chat Table">
+                            <items>
+                                <tableRow identifier="MessageCell" selectable="NO" id="J7n-3O-vas" customClass="MessageCell" customModule="AppleWatchKeyboard_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" spacing="0.0" id="1lY-sd-Och">
+                                        <items>
+                                            <group width="1" height="5" alignment="left" id="ul8-fK-cJk" userLabel="Space">
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </group>
+                                            <imageView width="25" height="25" alignment="left" id="x62-Qv-3GA" userLabel="Avatar"/>
+                                            <group width="1" alignment="center" layout="vertical" radius="0.0" spacing="0.0" id="UGr-Xo-EdJ" userLabel="Text message bubble">
+                                                <items>
+                                                    <imageView width="1" alignment="center" image="bubbleTop.png" id="QQh-e4-rEe" userLabel="Bubble top"/>
+                                                    <group width="1" alignment="center" layout="vertical" radius="0.0" spacing="0.0" id="NGa-C6-771" userLabel="Bubble middle">
+                                                        <items>
+                                                            <label width="1" alignment="left" text="message" textAlignment="left" numberOfLines="0" id="huK-w3-IXe" userLabel="Text message">
+                                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <fontDescription key="font" type="system" pointSize="12"/>
+                                                            </label>
+                                                        </items>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <edgeInsets key="margins" left="8" right="8" top="0.0" bottom="0.0"/>
+                                                    </group>
+                                                    <imageView width="1" alignment="center" image="bubbleBottom.png" id="0At-z4-qAd" userLabel="Bubble bottom"/>
+                                                </items>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                                            </group>
+                                            <group width="1" alignment="center" layout="vertical" spacing="0.0" id="dgG-8Z-H9q" userLabel="Image message bubble">
+                                                <items>
+                                                    <group width="1" height="3" alignment="left" id="p7h-hS-zQe" userLabel="Space">
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    </group>
+                                                    <imageView width="15" height="15" alignment="left" id="aNx-a8-A1F" userLabel="Smiley"/>
+                                                </items>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <edgeInsets key="margins" left="5" right="0.0" top="0.0" bottom="0.0"/>
+                                            </group>
+                                            <group width="1" alignment="center" layout="vertical" spacing="0.0" id="NPC-n7-eiW" userLabel="Date Group">
+                                                <items>
+                                                    <group width="1" height="2" alignment="left" id="tpT-x6-JOX" userLabel="Space">
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    </group>
+                                                    <label alignment="left" text="10:00PM" id="zRK-fy-FEO" userLabel="Date">
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <fontDescription key="font" type="system" weight="semibold" pointSize="6"/>
+                                                    </label>
+                                                </items>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                                            </group>
+                                        </items>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <edgeInsets key="margins" left="4" right="4" top="0.0" bottom="2"/>
+                                    </group>
+                                    <connections>
+                                        <outlet property="avatar" destination="x62-Qv-3GA" id="Nnh-Ya-lAV"/>
+                                        <outlet property="date" destination="zRK-fy-FEO" id="bmd-lR-jWR"/>
+                                        <outlet property="dateGroup" destination="NPC-n7-eiW" id="lrr-Ny-aqT"/>
+                                        <outlet property="imageMessageBubble" destination="dgG-8Z-H9q" id="V47-Ia-Tmu"/>
+                                        <outlet property="smiley" destination="aNx-a8-A1F" id="lRj-IX-5l0"/>
+                                        <outlet property="textMessage" destination="huK-w3-IXe" id="kNy-MV-w2M"/>
+                                        <outlet property="textMessageBubble" destination="UGr-Xo-EdJ" id="BYA-qU-j61"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                        <group width="1" height="2" alignment="center" id="vEy-y5-rgZ">
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </group>
+                        <label alignment="center" verticalAlignment="center" text="Force touch to bring menu" textAlignment="center" numberOfLines="2" id="YRP-5C-C7C" userLabel="notice">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="font" type="system" pointSize="16"/>
+                        </label>
+                    </items>
+                    <menu key="menu" id="TZX-N7-TWO">
+                        <items>
+                            <menuItem title="Smiley" id="jfc-vZ-XVe">
+                                <variation key="device=watch38mm" image="smiley38mm.png"/>
+                                <variation key="device=watch42mm" image="smiley42mm.png"/>
+                                <connections>
+                                    <action selector="smileyButtonTapped" destination="AgC-eL-Hgc" id="uj1-sX-hfg"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Text" id="00u-6p-9aZ">
+                                <variation key="device=watch38mm" image="text38mm.png"/>
+                                <variation key="device=watch42mm" image="text42mm.png"/>
+                                <connections>
+                                    <action selector="textButtonTapped" destination="AgC-eL-Hgc" id="Ws0-Mu-Nqf"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="chatTable" destination="2O1-oz-xp9" id="iXQ-HQ-Drb"/>
+                        <outlet property="notice" destination="YRP-5C-C7C" id="az5-ud-4OJ"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1781" y="2743"/>
+        </scene>
+        <!--SmileysTable-->
+        <scene sceneID="qCs-Ja-pXt">
+            <objects>
+                <controller identifier="SmileysTable" title="Cancel" hidesWhenLoading="NO" id="Egp-ZY-rDA" userLabel="SmileysTable" customClass="SmileysTable" customModule="AppleWatchKeyboard_WatchKit_Extension">
+                    <items>
+                        <table alignment="left" id="j5v-cd-uey" userLabel="Smileys table">
+                            <items>
+                                <tableRow identifier="SmileyCell" id="ApN-SS-3m6" customClass="SmileyCell" customModule="AppleWatchKeyboard_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" spacing="0.0" id="azv-Iz-0dv">
+                                        <items>
+                                            <button width="30" height="30" alignment="left" verticalAlignment="center" id="RaH-dJ-1Fr" userLabel="Smiley One">
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <connections>
+                                                    <action selector="smileyOneTapped" destination="ApN-SS-3m6" id="rg2-Tu-0Z1"/>
+                                                </connections>
+                                            </button>
+                                            <button width="30" height="30" alignment="right" verticalAlignment="center" id="cRU-9s-ulY" userLabel="Smiley Two">
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <connections>
+                                                    <action selector="smileyTwoTapped" destination="ApN-SS-3m6" id="H6f-IZ-EwY"/>
+                                                </connections>
+                                            </button>
+                                        </items>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <edgeInsets key="margins" left="20" right="22" top="2" bottom="2"/>
+                                    </group>
+                                    <connections>
+                                        <outlet property="smileyOne" destination="RaH-dJ-1Fr" id="oyl-Ou-yH0"/>
+                                        <outlet property="smileyTwo" destination="cRU-9s-ulY" id="c46-U8-UW4"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="smileysTable" destination="j5v-cd-uey" id="typ-dQ-EIG"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1781" y="2989"/>
+        </scene>
+        <!--Characters Keyboard-->
+        <scene sceneID="rsI-pn-MKs">
+            <objects>
+                <controller identifier="CharactersKeyboard" title="Cancel" spacing="0.0" id="ZVZ-0L-Jbm" userLabel="Characters Keyboard" customClass="CharactersKeyboard" customModule="AppleWatchKeyboard_WatchKit_Extension">
+                    <items>
+                        <label width="1" alignment="left" textAlignment="left" numberOfLines="0" id="pfd-rx-40g" userLabel="Text message">
+                            <color key="textColor" red="0.18039215689999999" green="0.74509803919999995" blue="0.80784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" type="system" pointSize="14"/>
+                        </label>
+                        <group width="1" alignment="center" verticalAlignment="bottom" layout="vertical" radius="0.0" spacing="2" id="86C-F4-x7R">
+                            <items>
+                                <group width="1" height="23" alignment="center" spacing="0.0" id="7cv-uJ-klA">
+                                    <items>
+                                        <group width="32" height="23" alignment="left" verticalAlignment="center" spacing="0.0" id="uan-kf-iET">
+                                            <items>
+                                                <button width="1" height="1" alignment="center" verticalAlignment="center" backgroundImage="leftArrow.png" id="GbS-bt-h06" userLabel="left arrow button">
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <connections>
+                                                        <action selector="leftArrowButtonTapped" destination="ZVZ-0L-Jbm" id="WsZ-My-6SN"/>
+                                                    </connections>
+                                                </button>
+                                            </items>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            <edgeInsets key="margins" left="5" right="5" top="3" bottom="3"/>
+                                        </group>
+                                        <button width="0.53000000000000003" height="23" alignment="center" verticalAlignment="center" title="Clear" id="ftm-hQ-2gZ">
+                                            <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="font" type="system" pointSize="15"/>
+                                            <connections>
+                                                <action selector="clearButtonTapped" destination="ZVZ-0L-Jbm" id="45W-xU-umD"/>
+                                            </connections>
+                                        </button>
+                                        <group width="32" height="23" alignment="right" verticalAlignment="center" spacing="0.0" id="USa-jH-x6h">
+                                            <items>
+                                                <button width="1" height="1" alignment="center" verticalAlignment="center" backgroundImage="rightArrow.png" id="FLB-di-bOf" userLabel="right arrow button">
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <connections>
+                                                        <action selector="rightArrowButtonTapped" destination="ZVZ-0L-Jbm" id="9e1-Zp-7dk"/>
+                                                    </connections>
+                                                </button>
+                                            </items>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            <edgeInsets key="margins" left="5" right="5" top="3" bottom="3"/>
+                                        </group>
+                                    </items>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </group>
+                                <group width="1" height="23" alignment="center" verticalAlignment="center" id="rYo-OQ-LUG">
+                                    <items>
+                                        <table alignment="center" id="VXl-cx-6We" userLabel="Characters table">
+                                            <items>
+                                                <tableRow identifier="CharactersCell" id="zip-MM-1bE" customClass="CharactersCell" customModule="AppleWatchKeyboard_WatchKit_Extension">
+                                                    <group key="rootItem" width="1" height="23" alignment="left" spacing="2" id="Hzd-xC-f2s">
+                                                        <items>
+                                                            <button width="0.25" height="23" alignment="left" verticalAlignment="center" title="A" id="uiW-0M-S9s">
+                                                                <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <fontDescription key="font" type="system" pointSize="15"/>
+                                                                <connections>
+                                                                    <action selector="buttonOneTapped" destination="zip-MM-1bE" id="Qqb-bd-WCA"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button width="0.25" height="23" alignment="left" verticalAlignment="center" title="B" id="0ME-zk-eK5">
+                                                                <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <fontDescription key="font" type="system" pointSize="15"/>
+                                                                <connections>
+                                                                    <action selector="buttonTwoTapped" destination="zip-MM-1bE" id="Ela-vw-18w"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button width="0.25" height="23" alignment="left" verticalAlignment="center" title="C" id="eKX-tX-e9L">
+                                                                <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <fontDescription key="font" type="system" pointSize="15"/>
+                                                                <connections>
+                                                                    <action selector="buttonThreeTapped" destination="zip-MM-1bE" id="iqX-Rn-PYZ"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button width="0.25" height="23" alignment="left" verticalAlignment="center" title="D" id="pFW-dl-Mvh">
+                                                                <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <fontDescription key="font" type="system" pointSize="15"/>
+                                                                <connections>
+                                                                    <action selector="buttonFourTapped" destination="zip-MM-1bE" id="jmh-6D-0DH"/>
+                                                                </connections>
+                                                            </button>
+                                                        </items>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                        <edgeInsets key="margins" left="1" right="0.0" top="0.0" bottom="0.0"/>
+                                                    </group>
+                                                    <connections>
+                                                        <outlet property="buttonFour" destination="pFW-dl-Mvh" id="0Ye-Gl-dy9"/>
+                                                        <outlet property="buttonOne" destination="uiW-0M-S9s" id="2ae-5N-atU"/>
+                                                        <outlet property="buttonThree" destination="eKX-tX-e9L" id="nKW-gg-fEO"/>
+                                                        <outlet property="buttonTwo" destination="0ME-zk-eK5" id="q8S-dG-G8A"/>
+                                                    </connections>
+                                                </tableRow>
+                                            </items>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </table>
+                                    </items>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </group>
+                                <group width="1" height="23" alignment="center" verticalAlignment="bottom" spacing="2" id="vYu-I3-OFT">
+                                    <items>
+                                        <button width="0.25" height="23" alignment="left" verticalAlignment="center" title="A" id="36Y-W8-PJu">
+                                            <color key="titleColor" red="0.18039215689999999" green="0.74509803919999995" blue="0.80784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="font" type="boldSystem" pointSize="15"/>
+                                            <connections>
+                                                <action selector="charactersTypesButtonTapped" destination="ZVZ-0L-Jbm" id="VX5-pg-Axx"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.505" height="23" alignment="center" verticalAlignment="center" title="Space" id="YGx-6e-rb0">
+                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="font" type="system" pointSize="15"/>
+                                            <connections>
+                                                <action selector="spaceButtonTapped" destination="ZVZ-0L-Jbm" id="u5j-aE-cBg"/>
+                                            </connections>
+                                        </button>
+                                        <group width="32" height="23" alignment="right" verticalAlignment="center" spacing="0.0" id="VvE-pg-haI">
+                                            <items>
+                                                <button width="1" height="1" alignment="right" verticalAlignment="center" backgroundImage="delete.png" id="MSq-NW-uXJ" userLabel="delete button">
+                                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <fontDescription key="font" type="system" pointSize="15"/>
+                                                    <connections>
+                                                        <action selector="delButtonTapped" destination="ZVZ-0L-Jbm" id="lRm-U2-vyW"/>
+                                                    </connections>
+                                                </button>
+                                            </items>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            <edgeInsets key="margins" left="3" right="3" top="4" bottom="4"/>
+                                        </group>
+                                    </items>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                                </group>
+                            </items>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                        </group>
+                    </items>
+                    <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                    <connections>
+                        <outlet property="charactersTable" destination="VXl-cx-6We" id="auB-Qx-GA7"/>
+                        <outlet property="charactersTypesButton" destination="36Y-W8-PJu" id="dQf-0t-XK8"/>
+                        <outlet property="leftArrowButton" destination="GbS-bt-h06" id="S2B-5O-cRC"/>
+                        <outlet property="rightArrowButton" destination="FLB-di-bOf" id="k9M-sB-QVM"/>
+                        <outlet property="textMessage" destination="pfd-rx-40g" id="Iv2-iY-fpW"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1986" y="2743"/>
+        </scene>
+    </scenes>
+</document>
